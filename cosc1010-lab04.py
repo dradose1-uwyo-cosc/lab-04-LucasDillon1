@@ -3,7 +3,7 @@
 # 09/30/24
 # Lab 04
 # Lab Section: 16
-# Sources, people worked with, help given to: NA
+# Sources, people worked with, help given to: Talked to Tyler, confirmed answers.
 # 
 
 
