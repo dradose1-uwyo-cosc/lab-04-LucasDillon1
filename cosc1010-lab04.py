@@ -1,12 +1,10 @@
-# Your Name Here
+# Lucas Dillon
 # UWYO COSC 1010
-# Submission Date
-# Lab 03 
-# Lab Section: 
-# Sources, people worked with, help given to: 
-# your
-# comments
-# here
+# 09/30/24
+# Lab 04
+# Lab Section: 16
+# Sources, people worked with, help given to: NA
+# 
 
 
 
@@ -99,7 +97,22 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
+i = len(max_temps)
+
+temp1 = 0
+temp2 = 0
+
+for num in range(0, i):
+    temp1 += min_temps[num]
+    temp2 += max_temps[num]
+print(f"{temp1/i} is the average minimum temperature." )
+print(f"{temp2/i} is the average maximum temperature.")
+
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
 
+min_temps.sort()
+max_temps.sort()
 
+print(f"{min_temps[0]} is the lowest recorded temperature.")
+print(f"{max_temps[-1]} is the highest recorded temperature.")
